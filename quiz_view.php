@@ -9,133 +9,114 @@
 <body>
     <main>
         <h1>General Knowledge Quiz</h1>
+
         <form action="includes/contact_contr.inc.php" method="post">
-            <div class="info-sec">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="fname" placeholder="Firstname" required/>
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lname" placeholder="Lastname" required/>
-                <label for="age">Age</label>
-                <select id="age" name="age" required>
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="less_than_18">Less than 18</option>
-                    <option value="19_29">19 - 29</option>
-                    <option value="30_39">30 - 39</option>
-                    <option value="40_49">40 - 49</option>
-                    <option value="50_59">50 - 59</option>
-                    <option value="60_plus">60+</option>
-                </select>
-            </div>
+        <div class="info-sec">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Firstname" required/>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Lastname" required/>
+                    <label for="age">Age</label>
+                    <select id="age" name="age" required>
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="less_than_18">Less than 18</option>
+                        <option value="19_29">19 - 29</option>
+                        <option value="30_39">30 - 39</option>
+                        <option value="40_49">40 - 49</option>
+                        <option value="50_59">50 - 59</option>
+                        <option value="60_plus">60+</option>
+                    </select>
+                </div>
+            <!-- Question 1 -->
             <div class="questions">
                 <p>In which part of your body would you find the cruciate ligament?</p>
-                <input type="radio" id="qn1a" name="qn1" value="eyes" required/>
-                <label for="qn1a">Eyes</label>
-                <input type="radio" id="qn1b" name="qn1" value="knee"/>
-                <label for="qn1b">Knee</label>
-                <input type="radio" id="qn1c" name="qn1" value="legs"/>
-                <label for="qn1c">Legs</label>
-                <input type="radio" id="qn1d" name="qn1" value="arms"/>
-                <label for="qn1d">Arms</label>
+                <label><input type="radio" name="qn1" value="eyes" required/> Eyes</label>
+                <label><input type="radio" name="qn1" value="knee"/> Knee</label>
+                <label><input type="radio" name="qn1" value="legs"/> Legs</label>
+                <label><input type="radio" name="qn1" value="arms"/> Arms</label>
             </div>
+
+            <!-- Question 2 -->
             <div class="questions">
                 <p>What is the name of the main antagonist in the Shakespeare play Othello?</p>
-                <input type="radio" id="qn2a" name="qn2" value="lago" required/>
-                <label for="qn2a">lago</label>
-                <input type="radio" id="qn2b" name="qn2" value="desdemona"/>
-                <label for="qn2b">Desdemona</label>
-                <input type="radio" id="qn2c" name="qn2" value="romeo"/>
-                <label for="qn2c">Romeo</label>
-                <input type="radio" id="qn2d" name="qn2" value="bianca"/>
-                <label for="qn2d">Bianca</label>
+                <label><input type="radio" name="qn2" value="lago" required/> Iago</label>
+                <label><input type="radio" name="qn2" value="desdemona"/> Desdemona</label>
+                <label><input type="radio" name="qn2" value="romeo"/> Romeo</label>
+                <label><input type="radio" name="qn2" value="bianca"/> Bianca</label>
             </div>
+
+            <!-- Question 3 -->
             <div class="questions">
                 <p>What element is denoted by the chemical symbol Sn in the periodic table?</p>
-                <input type="radio" id="qn3a" name="qn3" value="bohrium" required/>
-                <label for="qn3a">Bohrium</label>
-                <input type="radio" id="qn3b" name="qn3" value="holmium"/>
-                <label for="qn3b">Holmium</label>
-                <input type="radio" id="qn3c" name="qn3" value="hassium"/>
-                <label for="qn3c">Hassium</label>
-                <input type="radio" id="qn3d" name="qn3" value="tin"/>
-                <label for="qn3d">Tin</label>
+                <label><input type="radio" name="qn3" value="bohrium" required/> Bohrium</label>
+                <label><input type="radio" name="qn3" value="holmium"/> Holmium</label>
+                <label><input type="radio" name="qn3" value="hassium"/> Hassium</label>
+                <label><input type="radio" name="qn3" value="tin"/> Tin</label>
             </div>
+
+            <!-- Question 4 -->
             <div class="questions">
                 <p>What was the Turkish city of Istanbul called before 1930?</p>
-                <input type="radio" id="qn4a" name="qn4" value="tangier" required/>
-                <label for="qn4a">Tangier</label>
-                <input type="radio" id="qn4b" name="qn4" value="constantinople"/>
-                <label for="qn4b">Constantinople</label>
-                <input type="radio" id="qn4c" name="qn4" value="tripoli"/>
-                <label for="qn4c">Tripoli</label>
-                <input type="radio" id="qn4d" name="qn4" value="aswan"/>
-                <label for="qn4d">Aswan</label>
+                <label><input type="radio" name="qn4" value="tangier" required/> Tangier</label>
+                <label><input type="radio" name="qn4" value="constantinople"/> Constantinople</label>
+                <label><input type="radio" name="qn4" value="tripoli"/> Tripoli</label>
+                <label><input type="radio" name="qn4" value="aswan"/> Aswan</label>
             </div>
+
+            <!-- Question 5 -->
             <div class="questions">
                 <p>What was the old name for a Snickers bar before it changed in 1990?</p>
-                <input type="radio" id="qn5a" name="qn5" value="marathon" required/>
-                <label for="qn5a">Marathon</label>
-                <input type="radio" id="qn5b" name="qn5" value="pira"/>
-                <label for="qn5b">Pira</label>
-                <input type="radio" id="qn5c" name="qn5" value="caramac"/>
-                <label for="qn5c">Caramac</label>
-                <input type="radio" id="qn5d" name="qn5" value="taz"/>
-                <label for="qn5d">Taz</label>
+                <label><input type="radio" name="qn5" value="marathon" required/> Marathon</label>
+                <label><input type="radio" name="qn5" value="pira"/> Pira</label>
+                <label><input type="radio" name="qn5" value="caramac"/> Caramac</label>
+                <label><input type="radio" name="qn5" value="taz"/> Taz</label>
             </div>
+
+            <!-- Question 6 -->
             <div class="questions">
                 <p>What is the capital of New Zealand?</p>
-                <input type="radio" id="qn6a" name="qn6" value="Wellington" required/>
-                <label for="qn6a">Eyes</label>
-                <input type="radio" id="qn6b" name="qn6" value="Algiers"/>
-                <label for="qn6b">Knee</label>
-                <input type="radio" id="qn6c" name="qn6" value="Abuja"/>
-                <label for="qn6c">Legs</label>
-                <input type="radio" id="qn6d" name="qn6" value="Canberra"/>
-                <label for="qn6d">Arms</label>
+                <label><input type="radio" name="qn6" value="Wellington" required/> Wellington</label>
+                <label><input type="radio" name="qn6" value="Algiers"/> Algiers</label>
+                <label><input type="radio" name="qn6" value="Abuja"/> Abuja</label>
+                <label><input type="radio" name="qn6" value="Canberra"/> Canberra</label>
             </div>
+
+            <!-- Question 7 -->
             <div class="questions">
                 <p>In which European country would you find the Rijksmuseum?</p>
-                <input type="radio" id="qn7a" name="qn7" value="germany" required/>
-                <label for="qn7a">Germany</label>
-                <input type="radio" id="qn7b" name="qn7" value="netherlands"/>
-                <label for="qn7b">Netherlands</label>
-                <input type="radio" id="qn7c" name="qn7" value="newzealand"/>
-                <label for="qn7c">New Zealand</label>
-                <input type="radio" id="qn7d" name="qn7" value="italy"/>
-                <label for="qn7d">Italy</label>
+                <label><input type="radio" name="qn7" value="germany" required/> Germany</label>
+                <label><input type="radio" name="qn7" value="netherlands"/> Netherlands</label>
+                <label><input type="radio" name="qn7" value="newzealand"/> New Zealand</label>
+                <label><input type="radio" name="qn7" value="italy"/> Italy</label>
             </div>
+
+            <!-- Question 8 -->
             <div class="questions">
                 <p>Which British actor will play Batman in the upcoming reboot directed by Matt Reeves?</p>
-                <input type="radio" id="qn8a" name="qn8" value="christian_bale" required/>
-                <label for="qn8a">Christian Bale</label>
-                <input type="radio" id="qn8b" name="qn8" value="ben_affleck"/>
-                <label for="qn8b">Ben Affleck</label>
-                <input type="radio" id="qn8c" name="qn8" value="robert_pattinson"/>
-                <label for="qn8c">Robert Pattinson</label>
-                <input type="radio" id="qn8d" name="qn8" value="benedict_cumber"/>
-                <label for="qn8d">Benedict Cumber</label>
+                <label><input type="radio" name="qn8" value="christian_bale" required/> Christian Bale</label>
+                <label><input type="radio" name="qn8" value="ben_affleck"/> Ben Affleck</label>
+                <label><input type="radio" name="qn8" value="robert_pattinson"/> Robert Pattinson</label>
+                <label><input type="radio" name="qn8" value="benedict_cumber"/> Benedict Cumberbatch</label>
             </div>
+
+            <!-- Question 9 -->
             <div class="questions">
                 <p>Which country has the longest coastline in the world?</p>
-                <input type="radio" id="qn9a" name="qn9" value="russia" required/>
-                <label for="qn9a">Russia</label>
-                <input type="radio" id="qn9b" name="qn9" value="canada"/>
-                <label for="qn9b">Canada</label>
-                <input type="radio" id="qn9c" name="qn9" value="australia"/>
-                <label for="qn9c">Australia</label>
-                <input type="radio" id="qn9d" name="qn9" value="india"/>
-                <label for="qn9d">India</label>
+                <label><input type="radio" name="qn9" value="russia" required/> Russia</label>
+                <label><input type="radio" name="qn9" value="canada"/> Canada</label>
+                <label><input type="radio" name="qn9" value="australia"/> Australia</label>
+                <label><input type="radio" name="qn9" value="india"/> India</label>
             </div>
+
+            <!-- Question 10 -->
             <div class="questions">
                 <p>What is the world's most populated country?</p>
-                <input type="radio" id="qn10a" name="qn10" value="india" required/>
-                <label for="qn10a">India</label>
-                <input type="radio" id="qn10b" name="qn10" value="russia"/>
-                <label for="qn10b">Russia</label>
-                <input type="radio" id="qn10c" name="qn10" value="usa"/>
-                <label for="qn10c">USA</label>
-                <input type="radio" id="qn10d" name="qn10" value="china"/>
-                <label for="qn10d">China</label>
+                <label><input type="radio" name="qn10" value="india" required/> India</label>
+                <label><input type="radio" name="qn10" value="russia"/> Russia</label>
+                <label><input type="radio" name="qn10" value="usa"/> USA</label>
+                <label><input type="radio" name="qn10" value="china"/> China</label>
             </div>
+
             <button type="submit">Submit</button>
         </form>
     </main>
