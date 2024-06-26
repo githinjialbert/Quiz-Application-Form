@@ -10,7 +10,7 @@
     <main>
         <h1>General Knowledge Quiz</h1>
 
-        <form action="includes/contact_contr.inc.php" method="post">
+        <form action="includes/quiz_contr.inc.php" method="post">
         <div class="info-sec">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="fname" placeholder="Firstname" required/>
